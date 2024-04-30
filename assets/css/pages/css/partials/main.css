@@ -1,0 +1,25 @@
+#course-content h2{
+    color: #33a8db;
+}
+
+.module{
+    border: 1px solid #33a8db;
+    background-color: #000000;
+    box-shadow: inset 3px -3px 9px #53b3db80;
+}
+
+.module:hover{
+    background-image: linear-gradient(#3ba1cd, #023c68);
+}
+
+#transform-world{
+    background-image: url(../images/woman-code.png);
+}
+
+#transform-world p{
+    text-shadow: 3px 2px #33a8db;
+}
+
+#professional-challenges h2{
+    color: #33a8db;
+}

@@ -1,0 +1,21 @@
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(255,192,0, .2), rgba(0,0,0,.6)), url(../images/background_code_top.png);
+    border-top: 2px solid #ffc00080;
+    border-bottom: 1px solid #ffc00080;
+}
+
+.banner h1{
+    background: -webkit-linear-gradient(#ffc000, #c59800);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+button {
+    color: #ffca18;
+    border-image: linear-gradient(#ffd966, #c59800);
+    border: 1px solid #ffca18;
+}
+  
+button:hover {
+    background-image: linear-gradient(#ffd966, #a78000);;
+}

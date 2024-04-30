@@ -1,0 +1,21 @@
+.banner{
+    background-image: var(--html-header-bg-banner);
+    border-top: var(--html-border-2);
+    border-bottom: var(--html-border-1);
+}
+
+.banner h1{
+    background: var(--html-header-bg-title);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+button {
+    color: var(--html-primary-color);
+    border-image: var(--html-btn-gradient);
+    border: var(--html-border-2);
+}
+
+button:hover {
+    background-image: var(--html-btn-gradient);
+}

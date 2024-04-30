@@ -1,0 +1,154 @@
+/* HEADER */
+
+.banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+}
+
+.banner .banner-content{
+    color: var(--color-withe);
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+.banner p{
+    font-size: 1.25rem;
+    margin: 15px 0 25px;
+}
+
+.banner .logo{
+    background-color: var(--color-transparent);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.banner .logo img{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    margin-top: 26px;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border-image-slice: 10;
+    text-align: center;
+}
+  
+button:hover {
+    color: var(--color-withe);
+}
+
+
+
+/* MAIN */
+
+#course-content{
+    width: 800px;
+    text-align: center;
+}
+
+#course-content h2{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 24px;
+    margin-left: 50px;
+}
+
+#course-content p{
+    color: var(--color-withe);
+    font-size: 1.25rem;
+}
+
+.modules{
+    margin: 24px 0;
+}
+
+.module{
+    color: var(--color-withe);
+    width: 530px;
+    margin: 0  auto 24px;
+    background-color: var(--color-black);
+    padding: 16px;
+    border-radius: 100px;
+    list-style: none;
+    text-transform: initial;
+}
+
+.module:hover{
+    color: var(--color-withe);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#transform-world{
+    height: 560px;
+    background-size: cover;
+    background-image: url(../images/woman-code.png);
+    background-attachment: fixed;
+    padding: 160px;
+}
+
+#transform-world p{
+    color: var(--color-withe);
+    font-weight: 900;
+    text-transform: lowercase;
+    max-width: 250px;
+    font-size: 70px;
+}
+
+#professional-challenges{
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges h2{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#professional-challenges img{
+    margin: 32px 0;
+}
+
+#professional-challenges p{
+    color: var(--color-withe);
+}
+
+
+
+/* FOOTER */
+
+.rodape{
+    color: var(--color-withe);
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bold;
+}

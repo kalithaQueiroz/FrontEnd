@@ -2,3 +2,17 @@
 @import './fonts.css';
 @import './normalize.css';
 @import './variables.css';
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+section {
+    margin: 100px auto;
+}

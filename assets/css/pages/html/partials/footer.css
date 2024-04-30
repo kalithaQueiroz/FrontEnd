@@ -1,0 +1,4 @@
+.rodape {
+    background-image: var(--html-gradient-rodape);
+    border-bottom: var(--html-border-2);
+}
