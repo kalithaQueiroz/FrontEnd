@@ -1,32 +1,31 @@
 /* HEADER */
 
-.banner{
+.banner {
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     padding-top: 60px;
 }
 
-.banner .banner-content{
+.banner .banner-content {
     color: var(--color-withe);
     width: 500px;
     margin: auto;
-    text-align: center;
 }
 
-.banner h1{
+.banner h1 {
     font-size: 2.5rem;
     font-weight: 900;
     text-transform: uppercase;
     color: transparent;
 }
 
-.banner p{
+.banner p {
     font-size: 1.25rem;
     margin: 15px 0 25px;
 }
 
-.banner .logo{
+.banner .logo {
     background-color: var(--color-transparent);
     height: 260px;
     width: 260px;
@@ -36,7 +35,7 @@
     margin-bottom: 16px;
 }
 
-.banner .logo img{
+.banner .logo img {
     margin: auto;
     width: 80%;
     height: 80%;
@@ -52,7 +51,7 @@ button {
     letter-spacing: 3px;
     background-color: transparent;
     border-image-slice: 10;
-    text-align: center;
+    margin-bottom: 24px;
 }
   
 button:hover {
@@ -63,31 +62,33 @@ button:hover {
 
 /* MAIN */
 
-#course-content{
+#course-content {
     width: 800px;
-    text-align: center;
 }
 
-#course-content h2{
+#course-content h2 {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 3px;
     text-transform: uppercase;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-bottom: 24px;
-    margin-left: 50px;
 }
 
-#course-content p{
+#course-content p {
     color: var(--color-withe);
     font-size: 1.25rem;
 }
 
-.modules{
+.modules {
     margin: 24px 0;
 }
 
-.module{
+.modules ul{
+    padding-left: 0;
+}
+
+.module {
     color: var(--color-withe);
     width: 530px;
     margin: 0  auto 24px;
@@ -98,22 +99,21 @@ button:hover {
     text-transform: initial;
 }
 
-.module:hover{
+.module:hover {
     color: var(--color-withe);
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-#transform-world{
+#transform-world {
     height: 560px;
     background-size: cover;
-    background-image: url(../images/woman-code.png);
     background-attachment: fixed;
     padding: 160px;
 }
 
-#transform-world p{
+#transform-world p {
     color: var(--color-withe);
     font-weight: 900;
     text-transform: lowercase;
@@ -121,12 +121,11 @@ button:hover {
     font-size: 70px;
 }
 
-#professional-challenges{
-    text-align: center;
+#professional-challenges {
     width: 800px;
 }
 
-#professional-challenges h2{
+#professional-challenges h2 {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 3px;
@@ -134,11 +133,11 @@ button:hover {
     margin-bottom: 24px;
 }
 
-#professional-challenges img{
+#professional-challenges img {
     margin: 32px 0;
 }
 
-#professional-challenges p{
+#professional-challenges p {
     color: var(--color-withe);
 }
 
@@ -146,9 +145,8 @@ button:hover {
 
 /* FOOTER */
 
-.rodape{
+.rodape {
     color: var(--color-withe);
-    text-align: center;
     padding: 30px 0;
     font-weight: bold;
 }

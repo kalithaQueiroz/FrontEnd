@@ -1,3 +1,4 @@
-.rodape{
-    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(255, 192, 0, 0.2));
+.rodape {
+    background-image: var(--js-gradient-rodape);
+    border-bottom: var(--js-border-2);
 }

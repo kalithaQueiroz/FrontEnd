@@ -1,21 +1,21 @@
 .banner{
-    background-image: linear-gradient(rgba(0,0,0,.6), rgba(255,192,0, .2), rgba(0,0,0,.6)), url(../images/background_code_top.png);
-    border-top: 2px solid #ffc00080;
-    border-bottom: 1px solid #ffc00080;
+    background-image: var(--js-header-bg-banner);
+    border-top: var(--js-border-2);
+    border-bottom: var(--js-border-1);
 }
 
 .banner h1{
-    background: -webkit-linear-gradient(#ffc000, #c59800);
+    background: var(--js-header-bg-title);
     background-clip: text;
     -webkit-background-clip: text;
 }
 
 button {
-    color: #ffca18;
-    border-image: linear-gradient(#ffd966, #c59800);
-    border: 1px solid #ffca18;
+    color: var(--js-primary-color);
+    border-image: var(--js-btn-gradient);
+    border: var(--js-border-2);
 }
-  
+
 button:hover {
-    background-image: linear-gradient(#ffd966, #a78000);;
+    background-image: var(--js-btn-gradient);
 }

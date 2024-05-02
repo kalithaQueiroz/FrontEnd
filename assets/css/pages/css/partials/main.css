@@ -1,25 +1,26 @@
 #course-content h2{
-    color: #33a8db;
+    color: var(--css-primary-color);
 }
 
 .module{
-    border: 1px solid #33a8db;
-    background-color: #000000;
-    box-shadow: inset 3px -3px 9px #53b3db80;
+    border: var(--css-border-1);
+    box-shadow: inset 3px -3px 9px var(--css-secundary-color);
 }
 
 .module:hover{
-    background-image: linear-gradient(#3ba1cd, #023c68);
+    background-image: var(--css-btn-gradient);
 }
 
 #transform-world{
-    background-image: url(../images/woman-code.png);
+    background-image: url(/assets/images/global/man-code.jpg);
+    border-top: var(--css-border-1);
+    border-bottom: var(--css-border-1);
 }
 
 #transform-world p{
-    text-shadow: 3px 2px #33a8db;
+    text-shadow: 3px 2px var(--css-secundary-color);
 }
 
 #professional-challenges h2{
-    color: #33a8db;
+    color: var(--css-primary-color);
 }

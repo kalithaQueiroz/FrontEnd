@@ -16,3 +16,77 @@ body {
 section {
     margin: 100px auto;
 }
+
+header, main, footer {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .banner {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .banner .banner-content {
+        width: 80%;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    #course-content {
+        width: 90%;
+    }
+
+    .module {
+        width: 90%;
+    }
+
+    #transform-world {
+        padding: 80px;
+    }
+
+    #transform-world p {
+        font-size: 40px;
+    }
+
+    #professional-challenges {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner .banner-content {
+        width: 90%;
+    }
+
+    #course-content {
+        width: 90%;
+    }
+
+    .module {
+        width: 90%;
+    }
+
+    #transform-world {
+        padding: 60px;
+    }
+
+    #transform-world p {
+        font-size: 30px;
+    }
+
+    #professional-challenges {
+        width: 90%;
+    }
+}

@@ -12,7 +12,7 @@
 }
 
 #transform-world{
-    background-image: url(../images/woman-code.png);
+    background-image: url(/assets/images/global/man-code.jpg);
     border-top: var(--html-border-1);
     border-bottom: var(--html-border-1);
 }

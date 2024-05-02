@@ -4,7 +4,7 @@
     --html-secundary-color: #ce5932cc;
     --html-border-1: 1px solid #ce5932f1;
     --html-border-2: 2px solid #ce5932f1;
-    --html-header-bg-banner: linear-gradient(#00000099, #7a1f0180, #00000099), url();
+    --html-header-bg-banner: linear-gradient(#00000099, #7a1f0180, #00000099), url(/assets/images/global/background-code.png);
     --html-btn-gradient: linear-gradient(#fd6d46, #ff5527);
     --html-header-bg-title: -webkit-linear-gradient(#f3541f, #fd6d46);
     --html-gradient-rodape: linear-gradient(#32a8db00, #f3541f33);
@@ -14,7 +14,7 @@
     --css-secundary-color: #33a8db80;
     --css-border-1: 1px solid #33a8db80;
     --css-border-2: 2px solid #33a8db80;
-    --css-header-bg-banner: linear-gradient(#00000099, #31a8dd33, #00000099), url();
+    --css-header-bg-banner: linear-gradient(#00000099, #31a8dd33, #00000099), url(/assets/images/global/background-code.png);
     --css-btn-gradient: linear-gradient(#3ba1cd, #023c68);
     --css-header-bg-title: -webkit-linear-gradient(#33a8db, #1472b7);
     --css-gradient-rodape: linear-gradient(#32a8db00, #32a8db33);
@@ -24,7 +24,7 @@
     --js-secundary-color: #ffc00080;
     --js-border-1: 1px solid #ffc00080;
     --js-border-2: 2px solid #ffc00080;
-    --js-header-bg-banner: linear-gradient(#00000099, #ffc00033, #00000099), url();
+    --js-header-bg-banner: linear-gradient(#00000099, #ffc00033, #00000099), url(/assets/images/global/background-code.png);
     --js-btn-gradient: linear-gradient(#ffd966, #a78000);
     --js-header-bg-title: -webkit-linear-gradient(#ffc000, #c59800);
     --js-gradient-rodape: linear-gradient(#32a8db00, #ffc00033);

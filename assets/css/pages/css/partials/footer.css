@@ -1,4 +1,4 @@
-.rodape{
-    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, 0.2));
-    border-bottom: 2px solid #33a8db80;
+.rodape {
+    background-image: var(--css-gradient-rodape);
+    border-bottom: var(--css-border-2);
 }
